@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { Outlet } from "react-router-dom";
 
@@ -9,9 +10,7 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <div className="p-10 text-center bg-gray-800 mt-10">
-        Réalisé avec 💗 par AFRIQUE AVENIR.
-      </div>
+      <Footer />
     </div>
   );
 };
