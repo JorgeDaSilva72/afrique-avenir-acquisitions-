@@ -63,7 +63,7 @@ const LandingPage = () => {
         </Link>
         <Link to={""}>
           <Button
-            variant="destructive"
+            variant="secondary"
             size="xl"
             className="w-full px-6 py-3 text-sm sm:w-auto sm:text-lg"
             aria-label="Publier une Entreprise à Vendre"
